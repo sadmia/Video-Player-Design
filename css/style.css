@@ -1,0 +1,301 @@
+
+/**
+
+	Full Name : MD Mehedi Hasan
+	Address : Kamarkhali, Mahukhali, Faridpur
+	Phone Number : 01316229257
+	Gmail : mehedi888012@gmail.com
+	Yahoo : sadmia.com@yahoo.com
+	Website : www.sadmia.com
+	Facebook page : https://www.facebook.com/sadmia.page
+	Facebook page : https://www.facebook.com/mehedihasansad.page
+	Facebook profile : https://www.facebook.com/mehedihasansad.profile
+	Twitter: https://twitter.com/SadMiaOfficial
+	Instagram: https://www.instagram.com/sadmia.com.bd
+	GitHub: https://github.com/sadmia
+	YouTube : (Searce - Sadmia)
+
+**/
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial;
+	background-image: var(--bgIcon);
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+
+:root {
+	--bgIcon : linear-gradient(#87AFC7, #BCB88A);
+}
+
+.videoPlayer {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	overflow: hidden;
+	background-color: #000;
+	overflow: hidden;
+}
+
+.haderSection {
+	width: 100%;
+	height: 30px;
+	background-color: #fff;
+	background-color: #DDE1E3;
+	overflow: hidden;
+}
+.haderSection h1 {
+	font-size: 12px;
+	color: #000;
+	padding: 7px 115px 7px 10px;
+	cursor: pointer;
+}
+.haderSection ul {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding: 0;
+	margin-bottom: 0;
+}
+.haderSection ul li {
+	width: 35px;
+	height: 30px;
+	display: inline-block;
+	margin-left: -5px;
+	cursor: pointer;
+	position: relative;
+	transition: 0.3s;
+}
+.haderSection ul li i {
+	transition: 0.3s;
+}
+.haderSection ul li:hover {
+	background-color: #C7CACC;
+}
+.haderSection ul li:last-child:hover {
+	background-color: red;
+}
+.haderSection ul li i {
+	font-size: 14px;
+	position: absolute;
+	color: #000;
+	padding: 8px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.haderSection ul li:last-child:hover i {
+	color: #fff;
+}
+
+.haderSection ul li:active {
+	background-color: #3337;
+}
+.haderSection ul li:last-child:active {
+	background-color: #ff000c87;
+}
+
+
+.videoPlayer video {
+	width: 100%;
+	height: 100%;
+}
+
+.controleDiv {
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+}
+
+.timelineDiv {
+	width: 96%;
+	height: 4px;
+	background-color: #3333;
+	margin: 5px auto;
+	position: relative;
+}
+.timelineDiv input {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+}
+
+.buttonSite {
+	position: relative;
+	width: 96%;
+	height: 40px;
+	margin: 8px auto;
+}
+
+.lst {
+	padding: 0;
+	margin-bottom: 0;
+	position: absolute;
+	top: 0;
+	z-index: 3;
+}
+.lst li {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+.list1 {
+	left: 0;
+}
+.list2 {
+	right: 0;
+}
+
+.lst li i {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	padding: 10px;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+.lst p {
+	font-size: 14px;
+	color: #fff;
+	display: inline-block;
+	transform: translate(3px,-13px);
+}
+
+.rangeLi {
+	width: 50px !important;
+	transform: translateY(-16px);
+	background-color: #3330 !important;
+}
+.rangeLi input {
+	width: 100%;
+	height: 3px;
+	cursor: pointer;
+}
+
+.displayFull {
+	width: 100%;
+	height: 100%;
+}
+
+.disNone {
+	display: none;
+}
+.disBlock {
+	display: block;
+}
+#voliumInputLI {
+	width: 0px !important;
+	overflow: hidden;
+}
+.controleDiv:hover #voliumInputLI {
+	width: 50px !important;
+	overflow: visible;
+	transition: 0.05s;
+}
+
+.controleDiv {
+	bottom: -45px;
+	transition: 0.3s;
+}
+.videoPlayer:hover .controleDiv {
+	bottom: 0px;
+}
+
+.inDiv {
+	position: absolute;
+	width: 150px;
+	background-color: #333;
+	bottom: 12px;
+	right: 0;
+	overflow: hidden;
+	display: none;
+}
+.firstStap {
+	/*display: none;*/
+}
+.inDiv ul {
+	padding: 0;
+	margin-bottom: 0;
+}
+.inDiv ul li {
+	list-style: none;
+	padding: 10px 10px;
+	cursor: pointer;
+}
+.inDiv ul li:hover {
+	background-color: #fff3;
+}
+.inDiv ul li span {
+	font-size: 12px;
+	color: #fff;
+}
+.inDiv ul li i {
+	font-size: 12px;
+	color: #fff;
+	margin-right: 5px;
+	padding: 5px 4px 5px 6px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+}
+
+/*seppe use js*/
+.speed-Div {
+	height: 200px;
+	overflow-y: scroll;
+}
+
+.nextAction {
+	padding: 0;
+	margin-bottom: 0;
+	display: none;
+}
+.nextAction li {
+	font-size: 11px;
+	color: #fff;
+	padding: 10px 10px 10px 30px !important;
+	position: relative;
+}
+.nextAction li i {
+	position: absolute;
+	left: 10px;
+	border: none !important;
+	padding: 0 !important;
+	display: none;
+}
+
+.backBtnSpeed {
+	border-bottom: 1px solid #fff5;
+}
+.backBtnSpeed:hover {
+	background-color: #fff0 !important;
+}
+.backBtnSpeed i {
+	left: 15px !important;
+	top: 11px;
+}
+#Normal {
+	display: block;
+}

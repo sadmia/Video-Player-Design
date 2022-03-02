@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<!--
+
+			Full Name : MD Mehedi Hasan
+			Address : Kamarkhali, Mahukhali, Faridpur
+			Phone Number : 01316229257
+			Gmail : mehedi888012@gmail.com
+			Yahoo : sadmia.com@yahoo.com
+			Website : www.sadmia.com
+			Facebook page : https://www.facebook.com/sadmia.page
+			Facebook page : https://www.facebook.com/mehedihasansad.page
+			Facebook profile : https://www.facebook.com/mehedihasansad.profile
+			Twitter: https://twitter.com/SadMiaOfficial
+			Instagram: https://www.instagram.com/sadmia.com.bd
+			GitHub: https://github.com/sadmia
+			YouTube : (Searce - Sadmia)
+
+		-->
+
+		<title>Music Player Design</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+
+		<div class="videoPlayer">
+			
+			<div class="haderSection">
+				<h1 id="videoTitle">Video Title</h1>
+				<ul>
+					<li title="Minimize" id="minimizeBtn">
+						<i class="fa-solid fa-minus"></i>
+					</li>
+					<li id="PlayerScreen">
+						<i title="Maximize" id="backScreen" class="fa-solid fa-window-maximize"></i>
+						<i title="Restore Down" id="fullScreen" class="fa-solid fa-window-restore disNone"></i>
+					</li>
+					<li title="Close" id="closeBtn">
+						<i class="fa-solid fa-xmark"></i>
+					</li>
+				</ul>
+
+			</div>
+
+				<div class="controleDiv">
+
+					<div class="timelineDiv">
+						<input id="timeLineBar" type="range" min="0" max="100" value="0">
+
+						<div id="settingMainDiv" class="inDiv">
+							<ul class="firstStap">
+								<li id="speedVideoBtn">
+									<i class="fa-solid fa-play"></i>
+									<span>Playback Speed</span>
+									<span class="fa-solid fa-angle-right"></span>
+								</li>
+							</ul>
+							<ul class="nextAction">
+								<li class="backBtnSpeed">
+									<i id="Normal" class="fa-solid fa-angle-left"></i>
+									<span>Playback speed</span>
+								</li>
+								<li id="speed025"><i class="fa-solid fa-check"></i>0.25</li>
+								<li id="speed050"><i class="fa-solid fa-check"></i>0.5</li>
+								<li id="speed075"><i class="fa-solid fa-check"></i>0.75</li>
+								<li id="speed1">
+									<i id="Normal" class="fa-solid fa-check"></i>
+									Narmal
+								</li>
+								<li id="speed125"><i class="fa-solid fa-check"></i>1.25</li>
+								<li id="speed150"><i class="fa-solid fa-check"></i>1.5</li>
+								<li id="speed175"><i class="fa-solid fa-check"></i>1.75</li>
+								<li id="speed2"><i class="fa-solid fa-check"></i>2</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="buttonSite">
+						<ul class=" lst list1">
+							<li title="Backward Fast" id="backForword">
+								<i class="fa-solid fa-backward-fast"></i>
+							</li>
+							<li id="playBtn">
+								<i title="Play" id="playIcon" class="fa-solid fa-play"></i>
+								<i title="Pause" id="pauseIcon" class="fa-solid fa-pause disNone"></i>
+							</li>
+							<li title="Forward Fast" id="fastForword">
+								<i class="fa-solid fa-forward-fast"></i>
+							</li>
+							<li id="VoliumBtn" title="Volume">
+								<i id="voliumIcon1" class="fa-solid fa-volume-high"></i>
+								<i id="voliumIcon0" class="fa-solid fa-volume-xmark disNone"></i>
+								<i id="voliumIcon3" class="fa-solid fa-volume-off disNone"></i>
+								<i id="voliumIcon6" class="fa-solid fa-volume-low disNone"></i>
+							</li> 
+							<li class="rangeLi" id="voliumInputLI">
+								<input id="voliumInput" type="range" min="0" max="10" value="10">
+							</li>
+							<p>
+								<span id="videoUpdateTime">0:00</span> / 
+								<span id="videoEndTime">0:00</span>
+							</p>
+						</ul>
+
+						<ul class=" lst list2">
+							<li id="loopVideoBtn">
+								<i title="Autoplay is on" id="loopOn" class="fa-solid fa-right-left"></i>
+								<i title="Autoplay is off" id="loopOff" class="fa-solid fa-vector-square disNone"></i>
+							</li>
+							<li title="Setting" id="settingBtn">
+								<i class="fa-solid fa-gear"></i>
+							</li>
+							<li id="fullScreenBtn">
+								<i title="Full Screen" id="backFullIcon" class="fa-solid fa-expand"></i>
+								<i title="End Full Screen" id="fullIcon" class="fa-solid fa-compress disNone"></i>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+
+			<video id="VideoSection">
+				<source src="" type="video/mp4">
+			</video>
+			
+		</div>
+
+
+	<script src="js/storage.js"></script>
+	<script src="js/castom.js"></script>
+	</body>
+</html>
