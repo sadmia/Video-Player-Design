@@ -7,6 +7,8 @@ Full Source Code Link : https://drive.google.com/drive/folders/1W4-ace2pUynAyGb4
 
 Live View Link : https://sadmia.github.io/Video-Player-Design/
 
+Video Linl : https://youtu.be/1gHBBhnvItM
+
 Website: www.sadmia.com
 
 Facebook Profile: https://www.facebook.com/sadmia.com.bd
