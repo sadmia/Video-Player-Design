@@ -5,7 +5,7 @@ Full Source Code Link : https://drive.google.com/drive/folders/1W4-ace2pUynAyGb4
 
 ভিডিও ছাড়া লাইভ ভিউ লিঙ্ক
 
-Live View Link : 
+Live View Link : https://sadmia.github.io/Video-Player-Design/
 
 Website: www.sadmia.com
 
